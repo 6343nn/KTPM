@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 2">
+			<Prp name="stacktext" type="S" value="Test1()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="Test1()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 10">
+			<Prp name="stack beginning" type="I" value="4"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="&#xA;&#xA;Tested object:&#xA;Aliases.project.frmMain.groupBox1.btnAddFood&#xA;(Sys.Process(&quot;project&quot;).WinFormsObject(&quot;frmMain&quot;).WinFormsObject(&quot;groupBox1&quot;).WinFormsObject(&quot;btnAddFood&quot;))"/>
+			<Prp name="message" type="S" value="The operation cannot be completed due to an unexpected window."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="date" type="D" value="45428.9794958218"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.project.frmMain&#xA;(Sys.Process(&quot;project&quot;).WinFormsObject(&quot;frmMain&quot;))"/>
+			<Prp name="message" type="S" value="The 'Quán Cafe' window was activated."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="date" type="D" value="45428.9794576042"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 6">
+			<Prp name="stacktext" type="S" value="Test1()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="stacktext" type="S" value="Test1()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="stacktext" type="S" value="Test1()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.project.frmMain&#xA;(Sys.Process(&quot;project&quot;).WinFormsObject(&quot;frmMain&quot;))"/>
+			<Prp name="message" type="S" value="The 'Quán Cafe' window was activated."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="date" type="D" value="45428.9794820023"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="stack beginning" type="I" value="6"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="6"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="date" type="D" value="45428.9794979977"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object left" type="I" value="129"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.project.dlgC_nhB_o.btnYes"/>
+					<Prp name="object right" type="I" value="223"/>
+					<Prp name="object bottom" type="I" value="178"/>
+					<Prp name="datetime" type="D" value="45428.6855787037"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="tcvi6541578177601.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="click point x" type="I" value="155"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="160"/>
+					<Prp name="object top" type="I" value="149"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object left" type="I" value="129"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.project.dlgC_nhB_o.btnYes"/>
+					<Prp name="object right" type="I" value="223"/>
+					<Prp name="object bottom" type="I" value="178"/>
+					<Prp name="datetime" type="D" value="45428.6877972685"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="click point x" type="I" value="175"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="162"/>
+					<Prp name="object top" type="I" value="149"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.project.dlgC_nhB_o.btnYes&#xA;(Sys.Process(&quot;project&quot;).Window(&quot;#32770&quot;, &quot;Cảnh báo&quot;, 1).Window(&quot;Button&quot;, &quot;&amp;Yes&quot;, 1))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="date" type="D" value="45428.9794650463"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.devenv.HwndSource_GlowBorder&#xA;(Sys.Process(&quot;devenv&quot;).WPFObject(&quot;HwndSource: GlowBorder&quot;, &quot;&quot;, 1))"/>
+			<Prp name="message" type="S" value="The '' window was activated."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="date" type="D" value="45428.9794798611"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Could not close the unexpected window"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="date" type="D" value="45428.9794931019"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object left" type="I" value="335"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.project.frmAddFood.groupBox1.btnAdd"/>
+					<Prp name="object right" type="I" value="390"/>
+					<Prp name="object bottom" type="I" value="277"/>
+					<Prp name="datetime" type="D" value="45428.6856481481"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="tcvi6546859177606.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="click point x" type="I" value="371"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="263"/>
+					<Prp name="object top" type="I" value="226"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object left" type="I" value="335"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.project.frmAddFood.groupBox1.btnAdd"/>
+					<Prp name="object right" type="I" value="390"/>
+					<Prp name="object bottom" type="I" value="277"/>
+					<Prp name="datetime" type="D" value="45428.6878108218"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="click point x" type="I" value="362"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="251"/>
+					<Prp name="object top" type="I" value="226"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.project.frmAddFood.groupBox1.btnAdd&#xA;(Sys.Process(&quot;project&quot;).WinFormsObject(&quot;frmAddFood&quot;).WinFormsObject(&quot;groupBox1&quot;).WinFormsObject(&quot;btnAdd&quot;))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="date" type="D" value="45428.9794782407"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="Test1()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{C13038AD-730E-4E5A-9DA4-77E407C04A6E}"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object left" type="I" value="137"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.project.frmAddFood.groupBox1.cbbFood"/>
+					<Prp name="object right" type="I" value="391"/>
+					<Prp name="object bottom" type="I" value="217"/>
+					<Prp name="datetime" type="D" value="45428.685625"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="tcvi6544859177605.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="click point x" type="I" value="-740"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-381"/>
+					<Prp name="object top" type="I" value="179"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object left" type="I" value="137"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.project.frmAddFood.groupBox1.cbbFood"/>
+					<Prp name="object right" type="I" value="391"/>
+					<Prp name="object bottom" type="I" value="217"/>
+					<Prp name="datetime" type="D" value="45428.687808125"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="179"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.project.frmAddFood.groupBox1.cbbFood&#xA;(Sys.Process(&quot;project&quot;).WinFormsObject(&quot;frmAddFood&quot;).WinFormsObject(&quot;groupBox1&quot;).WinFormsObject(&quot;cbbFood&quot;))"/>
+			<Prp name="message" type="S" value="The combo box item 'Sinh tố bơ' was selected."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="date" type="D" value="45428.9794762616"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.devenv.HwndSource_GlowBorder&#xA;(Sys.Process(&quot;devenv&quot;).WPFObject(&quot;HwndSource: GlowBorder&quot;, &quot;&quot;, 1))"/>
+			<Prp name="message" type="S" value="The '' window was activated."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45428.9794384028"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object left" type="I" value="94"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.project.frmMain.groupBox1.btnAddFood"/>
+					<Prp name="object right" type="I" value="162"/>
+					<Prp name="object bottom" type="I" value="198"/>
+					<Prp name="datetime" type="D" value="45428.6855671296"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="tcvi6540031177600.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="120"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="155"/>
+					<Prp name="object top" type="I" value="135"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object left" type="I" value="94"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.project.frmMain.groupBox1.btnAddFood"/>
+					<Prp name="object right" type="I" value="162"/>
+					<Prp name="object bottom" type="I" value="198"/>
+					<Prp name="datetime" type="D" value="45428.6877949421"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="127"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="166"/>
+					<Prp name="object top" type="I" value="135"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.project.frmMain.groupBox1.btnAddFood&#xA;(Sys.Process(&quot;project&quot;).WinFormsObject(&quot;frmMain&quot;).WinFormsObject(&quot;groupBox1&quot;).WinFormsObject(&quot;btnAddFood&quot;))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="date" type="D" value="45428.9794627083"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="stacktext" type="S" value="Test1()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="Sys.Process(&quot;project&quot;).WinFormsObject(&quot;frmMain&quot;)"/>
+			<Prp name="message" type="S" value="Unexpected window: 'Quán Cafe'"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="date" type="D" value="45428.9794906481"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{46AF4C2A-0BFF-4404-BB39-4D55EAF5272F}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{897E9A95-B73F-409C-8F07-AB1CA46C5B6A}">
+			<config nodeName="project" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Users\DarkM\Desktop\Doankt" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Users\DarkM\Desktop\Doankt" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Users\DarkM\Desktop\Doankt" />
+					<param name="Simple" fileName="project.sln" filePath="C:\Users\DarkM\Desktop\Doankt\Doankt\" parameters="" workFolder="C:\Users\DarkM\Desktop\Doankt" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{326126D5-3591-474F-8760-3E2CC31F5112}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="devenv" Key="{F142850D-4C8F-4F02-A90D-E66E3E2905FC}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="devenv" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HwndSource_GlowBorder" Key="{5B88B1BB-190E-4FA3-9A2C-8060A8813393}">
+								<TypeInfo Item0="{E1D7E8C8-5A14-4EBC-B3B7-71CB965F6170}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="GlowBorder" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="project" Key="{6865E6F9-8C8F-48BA-AAD9-D7CFF521DD66}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="project" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="frmMain" Key="{83BAC9EC-FE55-4873-81D2-BEAAAAA99666}">
+								<TypeInfo Item0="{CE6A3331-F4BD-4D53-AE94-6B76EBA24B97}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="frmMain" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="groupBox1" Key="{7E06E0FF-3844-4C25-B6C4-98669656D37D}">
+										<Image FileName="270540433" Left="25" Top="78" Right="999" Bottom="323" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="groupBox1" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="btnAddFood" Key="{3D3C0713-B80A-4D25-8B72-87209CBCEA78}">
+												<Image FileName="270540433" Left="94" Top="135" Right="162" Bottom="198" />
+												<TypeInfo Item0="{59501249-6EE3-47F5-AEE6-3D2B390358B5}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="btnAddFood" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgC_nhB_o" Key="{80FF2620-8830-4E09-99E9-5EF993D5044A}">
+								<Image FileName="-949324439" Left="0" Top="0" Right="356" Bottom="199" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Cảnh báo" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnYes" Key="{7E86CB80-2695-4B8C-A91B-368F54C0D5EF}">
+										<Image FileName="-949324439" Left="129" Top="149" Right="223" Bottom="178" />
+										<TypeInfo Item0="{59501249-6EE3-47F5-AEE6-3D2B390358B5}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Yes" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="frmAddFood" Key="{896FF23E-2124-4C32-9D05-817C7A8D885E}">
+								<Image FileName="-1502641956" Left="0" Top="0" Right="443" Bottom="319" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="frmAddFood" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="groupBox1" Key="{AD5BD464-FC12-4046-8644-8E110381A8E5}">
+										<Image FileName="-1502641956" Left="21" Top="51" Right="419" Bottom="292" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="groupBox1" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="cbbFood" Key="{D3C679BB-C8D9-40C1-91C8-3084D35AD4DC}">
+												<Image FileName="-1502641956" Left="137" Top="179" Right="391" Bottom="217" />
+												<TypeInfo Item0="{C1E8E992-D267-4371-939F-371AC2717C0C}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="cbbFood" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="btnAdd" Key="{F215F3F3-E1C2-48F3-81A4-2156F16857A1}">
+												<Image FileName="-1080792966" Left="335" Top="226" Right="390" Bottom="277" />
+												<TypeInfo Item0="{59501249-6EE3-47F5-AEE6-3D2B390358B5}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="btnAdd" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgL_i" Key="{26C1E5AC-75D5-4AAC-BC76-D5381217372F}">
+								<Image FileName="79586666" Left="0" Top="0" Right="331" Bottom="199" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Lỗi" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnOK" Key="{45C7DF08-19B9-4210-BAA2-C43ACA080559}">
+										<Image FileName="79586666" Left="209" Top="149" Right="303" Bottom="178" />
+										<TypeInfo Item0="{59501249-6EE3-47F5-AEE6-3D2B390358B5}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlg_Th_m" Key="{1E92D827-6D1F-4344-97F0-6F3B234EBE82}">
+								<Image FileName="-1701063903" Left="0" Top="0" Right="285" Bottom="199" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Đã thêm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnOK" Key="{D73E4F51-EBD2-47ED-BC58-7AD125E34662}">
+										<Image FileName="-1701063903" Left="162" Top="149" Right="256" Bottom="178" />
+										<TypeInfo Item0="{59501249-6EE3-47F5-AEE6-3D2B390358B5}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="devenv" Owner="{F142850D-4C8F-4F02-A90D-E66E3E2905FC}">
+			<Child Name="HwndSource_GlowBorder" Owner="{5B88B1BB-190E-4FA3-9A2C-8060A8813393}" />
+		</Child>
+		<Child Name="project" Owner="{6865E6F9-8C8F-48BA-AAD9-D7CFF521DD66}">
+			<Child Name="frmMain" Owner="{83BAC9EC-FE55-4873-81D2-BEAAAAA99666}">
+				<Child Name="groupBox1" Owner="{7E06E0FF-3844-4C25-B6C4-98669656D37D}">
+					<Child Name="btnAddFood" Owner="{3D3C0713-B80A-4D25-8B72-87209CBCEA78}" />
+				</Child>
+			</Child>
+			<Child Name="dlgC_nhB_o" Owner="{80FF2620-8830-4E09-99E9-5EF993D5044A}">
+				<Child Name="btnYes" Owner="{7E86CB80-2695-4B8C-A91B-368F54C0D5EF}" />
+			</Child>
+			<Child Name="frmAddFood" Owner="{896FF23E-2124-4C32-9D05-817C7A8D885E}">
+				<Child Name="groupBox1" Owner="{AD5BD464-FC12-4046-8644-8E110381A8E5}">
+					<Child Name="cbbFood" Owner="{D3C679BB-C8D9-40C1-91C8-3084D35AD4DC}" />
+					<Child Name="btnAdd" Owner="{F215F3F3-E1C2-48F3-81A4-2156F16857A1}" />
+				</Child>
+			</Child>
+			<Child Name="dlgL_i" Owner="{26C1E5AC-75D5-4AAC-BC76-D5381217372F}">
+				<Child Name="btnOK" Owner="{45C7DF08-19B9-4210-BAA2-C43ACA080559}" />
+			</Child>
+			<Child Name="dlg_Th_m" Owner="{1E92D827-6D1F-4344-97F0-6F3B234EBE82}">
+				<Child Name="btnOK" Owner="{D73E4F51-EBD2-47ED-BC58-7AD125E34662}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
